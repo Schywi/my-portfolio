@@ -1,8 +1,11 @@
-const MoveInRight = document.querySelectorAll('.move-in-right')
-const MoveInUp = document.querySelectorAll('.move-in-up')
-const MoveInDown = document.querySelectorAll('.move-in-down')
-const MoveInLeft = document.querySelectorAll('.move-in-left')
+const MoveInRight = document.querySelectorAll('.move-in-right');
+const MoveInUp = document.querySelectorAll('.move-in-up');
+const MoveInDown = document.querySelectorAll('.move-in-down');
+const MoveInLeft = document.querySelectorAll('.move-in-left');
 const FadeIn = document.querySelectorAll('.fade-in')
+
+ 
+
 const options = {
     root:null,
     threshold:0,
