@@ -33,9 +33,25 @@
             transition: all .7s .1s ease-out;
             @media only screen and (max-width:$bp-large) {left: 4rem; bottom: 2rem;}
         }
+        &-resume{
+            position: fixed;
+            bottom: 4rem;
+            left: 6.5rem;
+            z-index: 999;
+            transition: all .7s .1s ease-out;
+            @media only screen and (max-width:$bp-large) {left: 4rem; bottom: 2rem;}
+        }
+        &-blog{
+            position: fixed;
+            bottom: 4rem;
+            left: 6.5rem;
+            z-index: 999;
+            transition: all .7s .1s ease-out;
+            @media only screen and (max-width:$bp-large) {left: 4rem; bottom: 2rem;}
+        }
     }
     &-img{
-        background-color: black;
+        background-color: transparent;
         cursor: pointer;
     }
     &-search{
@@ -62,6 +78,18 @@
         width: 1rem;
         border-radius: 50%;
      }
+     &-resume{
+        transition: all .7s .1s ease-out;
+        height: 1rem;
+        width: 1rem;
+        border-radius: 50%;
+     }
+     &-blog{
+        transition: all .7s .1s ease-out;
+        height: 1rem;
+        width: 1rem;
+        border-radius: 50%;
+     }
     &-checkbox:checked ~ &-link-linkedin{
         transform: translateY(-10rem) rotate(720deg) scale(5);
         filter: brightness(1.5); 
@@ -73,6 +101,14 @@
     }
     &-checkbox:checked ~ &-link-github{
         transform: translateY(-17rem) rotate(1080deg) scale(5);
+        filter: brightness(1.5);  
+    }
+    &-checkbox:checked ~ &-link-resume{
+        transform: translateY(-24rem) rotate(1440deg) scale(5);
+        filter: brightness(1.5);  
+    }
+    &-checkbox:checked ~ &-link-blog{
+        transform: translateY(-31rem) rotate(1800deg) scale(5);
         filter: brightness(1.5);  
     }
 }
