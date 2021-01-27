@@ -55,6 +55,7 @@
         }
     }
     &-submit{
+        
         min-width:10% ;
         @media only screen and (max-width:$bp-small) {float: right; padding: 1rem 2rem;}
     }
